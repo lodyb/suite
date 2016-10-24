@@ -1,0 +1,122 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              false
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+! Colours lifted from Solarized (http://ethanschoonover.com/solarized)
+! More info at:
+! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+!-------------------------------------------------------------------------------
+
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+URxvt.fading:               0
+! URxvt.urgentOnBell:         true
+! URxvt.visualBell:           true
+URxvt.loginShell:           true
+URxvt.saveLines:            4095
+URxvt.internalBorder:       5
+URxvt.lineSpace:            0
+
+urxvt.saveLines: 50000
+
+! Fonts
+URxvt*font: xft:tewi:pixelsize=13
+URxvt*boldFont: xft:tewi:pixelsize=13
+! Fix font space
+URxvt*letterSpace: 0
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+! svbtext 2016
+
+! special
+!*.foreground:   #a899c1
+!*.background:   #0b1317
+!*.cursorColor:  #a899c1
+
+! black
+!*.color0:       #1f3542
+!*.color8:       #182c35
+
+! red
+!*.color1:       #5c7190
+!*.color9:       #404e63
+
+! green
+!*.color2:       #a0a5b0
+!*.color10:      #747880
+
+! yellow
+!*.color3:       #6693a6
+!*.color11:      #4e707e
+
+! blue
+!*.color4:       #574f64
+!*.color12:      #3b3644
+
+! magenta
+!*.color5:       #1f74a3
+!*.color13:      #0d4d6e
+
+! cyan
+!*.color6:       #d29a3d
+!*.color14:      #9b722d
+
+! white
+!*.color7:       #d0cfd9
+!*.color15:      #9e9da5
+
+
+*.foreground:   #88a1be
+*.background:   #0a0f14
+*.cursorColor:  #98d1ce
+
+*.color0:       #0a0f14
+*.color8:       #10151b
+
+*.color1:       #c33027
+*.color9:       #d26939
+
+*.color2:       #26a98b
+*.color10:      #081f2d
+
+*.color3:       #edb54b
+*.color11:      #245361
+
+*.color4:       #195465
+*.color12:      #093748
+
+*.color5:       #4e5165
+*.color13:      #888ba5
+
+*.color6:       #33859d
+*.color14:      #599caa
+
+*.color7:       #98d1ce
+*.color15:      #d3ebe9
+
+
