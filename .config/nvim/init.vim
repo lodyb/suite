@@ -38,6 +38,9 @@ Plug 'valloric/youcompleteme'
 
 Plug 'docunext/closetag.vim'
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 " Add plugins to &runtimepath
 call plug#end()
 
@@ -85,3 +88,5 @@ if isdirectory(expand(".git"))
 endif
 
 set fillchars+=vert:\ 
+
+let g:airline_theme='bubblegum'
