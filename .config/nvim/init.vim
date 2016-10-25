@@ -89,4 +89,6 @@ endif
 
 set fillchars+=vert:\ 
 
-let g:airline_theme='bubblegum'
+let g:airline_theme='zenburn'
+
+let g:airline_powerline_fonts = 1
